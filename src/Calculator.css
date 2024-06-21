@@ -1,0 +1,18 @@
+.calculator-container .btn {
+    height: 60px;
+    margin: 5px 0;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .calculator-container .btn:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(255, 255, 255, 0.7);
+    transform: translateY(-2px);
+  }
+  
+  .calculator-container .btn:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2), inset -2px -2px 5px rgba(255, 255, 255, 0.7);
+    transform: translateY(0);
+  }
+  
